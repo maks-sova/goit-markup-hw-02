@@ -33,6 +33,7 @@
 
 .a_studio {
     list-style: none;
+    text-decoration: none;
 
 }
 .portfolio {
@@ -58,28 +59,19 @@
 
 }
 
-.e-mail:hover {
+.link_info{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #757575;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2em;
+        letter-spacing: 0.02em;
+        color: #757575;
+        list-style: none;  
+        text-decoration: none;
 }
-
-.tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #757575;
-}
-.info_button:hover{
+.info_button:hover,
+.info_button:focus{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -87,24 +79,25 @@
     cursor: pointer;
     margin: auto;
     text-align: center;
+    border: none;
 }
-.style_p{
+.style_skill{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8em;
     
     letter-spacing: 0.03em;
     
     color: #757575;
 }
-.style_h3{
+.style_work{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -113,25 +106,32 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: black;
-}
-
-.footer_studio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.2em;
-    line-height: 31px;
+    line-height: 1.2em;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.link_footer{
+
+.style_studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.link_info {
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7em;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.info_link {
+    background: #2F303A;
 }
